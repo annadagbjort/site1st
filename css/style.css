@@ -1,0 +1,41 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 1rem;
+}
+
+
+/*
+nav>ul{
+    display: flex;
+
+}
+*/
+
+
+nav {
+    padding-right: 5vw;
+
+
+}
+
+ul {
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    margin: 1em;
+}
+
+
+.vara {
+    display: flex;
+    flex-flow: column;
+
+}
